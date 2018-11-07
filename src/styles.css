@@ -1,0 +1,21 @@
+.centered-wrapper {
+  position: relative;
+  text-align: center;
+  font-size: 150%
+}
+.button {
+  position: relative;
+  text-align: center;
+  font-size: 90%
+}
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}

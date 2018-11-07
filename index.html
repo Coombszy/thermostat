@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thermostat</title>
+  </head>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="src/thermostat.js"></script>
+  <script src="src/interface.js"></script>
+  <link rel="stylesheet" href="src/styles.css"> 
+  <body class="centered-wrapper">
+    <section>
+      <h1>Thermostat</h1>
+      <p>
+        <button class="button" id="temp-down">-</button>
+        Temperature : <span id="temperature">0</span> C
+        <button class="button" id="temp-up">+</button>
+        <button class="button" id="temp-reset">reset</button><br>
+        <button class="button" id="psm-off">PSM off</button>
+        PSM :  <span id="psm-status">on</span>
+        <button class="button" id="psm-on">PSM on</button>
+      </p>
+    </section>
+  </body>
+</html>
