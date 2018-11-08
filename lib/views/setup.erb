@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thermostat</title>
+  </head>
+  <link rel="stylesheet" href="src/styles.css"> 
+  <body class="centered-wrapper">
+    <section>
+      <h1>Thermostat</h1>
+      <div class="inner">
+        <form class="form" action="/setup" method="post" accept-charset="utf-8">
+          <label for="useremail">Location</label>
+          <input type="location" name="location" id="location" maxlength="36" required="true"  /><br>
+          <input type="submit" value="Finish Configuration">
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
